@@ -3,7 +3,7 @@ from utils import check_user, multi_rec, getChannels
 
 app = Client(
     "Myone123nbot",
-    bot_token = "6149915260:AAH3j8goDum3n98qS2Me1TPLQ5aozR3Tox0",
+    bot_token = "1799299844:AAGFgfIc9SmEWalsvc7nwCw4mqiPopYqhgs",
     api_id = 2929027,
     api_hash = "2beecc3ee357e6e3f2b2e783d4159f9f"
 )
