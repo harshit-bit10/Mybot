@@ -1,6 +1,6 @@
 sudo_users = [959184369, 2036297424, 1640783367]
 
-iptv_link = "https://gist.githubusercontent.com/KSBOTSOFFICAL/5f46c704f6d854bb17e663d782d07853/raw/06c59c40b66cc1d912717643258164dab81062a2/Mylinks.json"
+iptv_link = "https://github.com/harshit-bit10/Mybot/blob/main/app.json"
 
 GROUP_TAG = "SAI"
 
