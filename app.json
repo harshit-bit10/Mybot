@@ -1,31 +1,241 @@
 {
-  "env": {
-    "API_ID": {
-      "description": "Get this value from https://my.telegram.org"
-    },
-    "API_HASH": {
-      "description": "Get this value from https://my.telegram.org"
-    },
-    "BOT_TOKEN": {
-      "description": "Get this from https://t.me/botfather"
-    },
-    "OWNER_ID": {
-      "description": "For /log cmd",
-      "required": false
-    },
-    "AUTH_USERS": {
-      "description": "[Users Ids] No time limit for these users",
-      "required": false
-    },
-    "GDRIVE_FOLDER_ID": {
-      "description": "Required if handling more than 2GB file",
-      "required": false
-    }
-  },
-  "stack": "heroku-22",
-  "buildpacks": [
-    {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
-    {"url": "https://github.com/heroku/heroku-buildpack-apt.git"},
-    {"url": "heroku/python"}
-  ]
+
+    "Hungama": [
+
+      {
+
+        "title": "Hungama TV",
+
+        "tataSkyid": 0,
+
+        "tv-genie-slug": "hungama",
+
+        "old_link": "http://45.125.220.129:81/play/a021",
+
+        "link_old": "http://45.125.220.129:81/play/a021", 
+
+        "link": "http://103.61.73.220:8000/play/a05u",
+
+        "audio" : ["Telugu", "Tamil", "Hindi"],
+
+        "language": "Telugu",
+
+        "ripType" : "SDTV WEB-DL",
+
+        "quality" : "576p"
+
+      }
+
+    ],
+
+    "Kouch tv": [
+
+      {
+
+        "title": "Cartoon network",
+
+        "tataSkyid": 0,
+
+        "tv-genie-slug": "marvel-hq",  
+
+        "link": "http://103.61.73.220:8000/play/a0eh",
+
+        "audio" : ["Telugu", "Tamil", "Hindi", "English"],
+
+        "language": "Telugu",
+
+        "ripType" : "SDTV WEB-DL",
+
+        "quality" : "576p"
+
+      }
+
+    ],
+
+    "CN": [
+
+      {
+
+        "title": "Cartoon Network",
+
+        "tataSkyid": 238,
+
+        "tv-genie-slug": "cartoon-network",
+
+        "old_link": "http://45.125.220.129:81/play/a020",
+
+        "hindi_link": "http://45.125.220.129:81/play/a020",
+
+        "link_forbidden": "http://45.125.220.129:81/play/a020",
+
+        "link" : "http://103.61.73.220:8000/play/a05t",
+
+        "audio" : ["Telugu", "Tamil", "Telugu", "English"],
+
+        "language": "Telugu",
+
+        "ripType" : "SDTV WEB-DL",
+
+        "quality" : "576p"
+
+      }
+
+],
+
+    "Disney": [
+
+      {
+
+        "title": "Disney Channel",
+
+        "tataSkyid": 114,
+
+        "tv-genie-slug": "disney-channel",
+
+        "old_link": "http://45.125.220.129:81/play/a022",
+
+        "old_link1": "http://45.125.220.129:81/play/a022",
+
+        "link" : "http://103.61.73.220:8000/play/a05v",
+
+        "audio" : ["Telugu", "Tamil", "Hindi", "English"],
+
+        "language": "Telugu",
+
+        "ripType" : "SDTV WEB-DL",
+
+        "quality" : "576p"
+
+      }
+
+    ],
+
+    "Nick": [
+
+      {
+
+        "title": "Nick",
+
+        "tataSkyid": 138,
+
+        "tv-genie-slug": "nick",
+
+        "old_link": "http://45.125.220.129:81/play/a023",
+
+        "link": "http://202.125.144.115:8000/play/a00f",
+
+        "audio" : ["Telugu", "Tamil", "Hindi", "Kannada"],
+
+        "language": "Telugu",
+
+        "ripType" : "SDTV WEB-DL",
+
+        "quality" : "576p"
+
+      }
+
+    ],
+
+    "Sonyyay": [
+
+      {
+
+        "title": "Sony yay",
+
+        "tataSkyid": 144,
+
+        "tv-genie-slug": "",
+
+        "old_link": "http://45.125.220.129:81/play/a025",
+
+        "link": "http://103.61.73.220:8000/play/a0ev",
+
+        "audio" : ["Telugu","Tamil", "Hindi", "English"],
+
+        "language": "Telugu",
+
+        "ripType" : "SDTV WEB-DL",
+
+        "quality" : "576p"
+
+      }
+
+    ],
+
+    "Sonic": [
+
+      {
+
+        "title": "Sonic Nickelodeon",
+
+        "tataSkyid": 127,
+
+        "tv-genie-slug": "sonic",
+
+        "old_link": "http://103.61.73.220:9000/play/a05z",
+
+        "link": "http://103.61.73.220:8000/play/a05z",
+
+        "audio" : ["Telugu", "Tamil", "Hindi", "Kannada", "Bengali", "Marathi", "Malayalam"],
+
+        "language": "Telugu",
+
+        "ripType" : "SDTV WEB-DL",
+
+        "quality" : "576p"
+
+      }
+
+    ],
+
+    "Pogo": [
+
+      {
+
+        "title": "Pogo",
+
+        "tataSkyid": 239,
+
+        "tv-genie-slug": "pogo",
+
+        "old_link": "http://45.125.220.129:81/play/a027",
+
+        "link": "http://103.61.73.220:8000/play/a060",
+
+        "audio" : ["Telugu","Tamil","Hindi","English"],
+
+        "language": "Telugu",
+
+        "ripType" : "SDTV WEB-DL",
+
+        "quality" : "576p"
+
+      }
+
+    ],
+
+    "DKids": [
+
+      {
+
+        "title": "Discovery Kids",
+
+        "tataSkyid": 119,
+
+        "tv-genie-slug": "",
+
+        "old_link": "http://45.125.220.129:81/play/a02c",
+
+        "link": "http://103.61.73.220:8000/play/a064",
+
+        "audio" : ["Telugu" , "Tamil" , "Hindi" , "Kannada" , "Malayalam"],
+
+        "language": "Telugu",
+
+        "ripType" : "SDTV WEB-DL",
+
+        "quality" : "576p"
+
+      }
+       ]
 }
