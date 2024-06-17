@@ -1,4 +1,4 @@
-sudo_users = [959184369, 2036297424, 1640783367]
+sudo_users = [6066102279, 5574593875, 6543303256, 6034467015, 7102604217]
 
 iptv_link = "https://github.com/harshit-bit10/Mybot/blob/main/app.json"
 
