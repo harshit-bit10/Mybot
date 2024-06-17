@@ -38,8 +38,8 @@ def show_channels_handler(app, message):
 def start_handler(app, message):
 
     if len(message.text.split()) < 3:
-        message.reply_text("<b>A Mega Recording Telegram bot by Team Disney Cartoons</b>\n\n<b>Made with Love by @kids_movies_and_Episodes_founder</b>")
+        message.reply_text("<b>A Mega Recording Telegram bot by SharkToonsIndia</b>\n\n<b>Made with Love by @LostIddd</b>")
         return
-    # Don't remove Conan76 from here, Resepct the Developer...
+    # Don't remove @LostIddd from here, Resepect the Developer...
     
 app.run()
