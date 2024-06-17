@@ -2,10 +2,10 @@ from pyrogram import Client, filters
 from utils import check_user, multi_rec, getChannels
 
 app = Client(
-    "Myone123nbot",
-    bot_token = "1799299844:AAGFgfIc9SmEWalsvc7nwCw4mqiPopYqhgs",
-    api_id = 2929027,
-    api_hash = "2beecc3ee357e6e3f2b2e783d4159f9f"
+    "SharkRipsbot",
+    bot_token = "7254163662:AAGt5w43odIV5YjjzHXqv3L9ZVG1UxDItRk",
+    api_id = 27190467,
+    api_hash = "ff6bc6ad2faba520f426cf04ca7f5773"
 )
 
 
