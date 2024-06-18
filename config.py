@@ -1,6 +1,6 @@
 sudo_users = [6066102279, 5574593875, 6543303256, 6034467015, 7102604217]
 
-iptv_link = "https://gist.githubusercontent.com/harshit-bit10/1eb9e2b4d5d3370f603e15625cd5070c/raw/628c18283109d904a51ffb41aa6fa30a29914c69/Mylinks.json"
+iptv_link = "https://gist.githubusercontent.com/harshit-bit10/1eb9e2b4d5d3370f603e15625cd5070c/raw/3c5eb9c2253a16ce74012d29c0007f8816036f1f/Mylinks.json"
 
 GROUP_TAG = "@SharkToonsIndia"
 
